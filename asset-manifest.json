@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/github-finder-typescript-redux-react-3.0/static/css/main.e7d4a8d8.css",
+    "main.js": "/github-finder-typescript-redux-react-3.0/static/js/main.079899be.js",
+    "static/media/OpenSans-Regular.ttf": "/github-finder-typescript-redux-react-3.0/static/media/OpenSans-Regular.77c09223204154ae8d43.ttf",
+    "static/media/OpenSans-Bold.ttf": "/github-finder-typescript-redux-react-3.0/static/media/OpenSans-Bold.fa428cdd2e334e2be904.ttf",
+    "static/media/OpenSans-Light.ttf": "/github-finder-typescript-redux-react-3.0/static/media/OpenSans-Light.55d5015c3ced03510e63.ttf",
+    "index.html": "/github-finder-typescript-redux-react-3.0/index.html",
+    "main.e7d4a8d8.css.map": "/github-finder-typescript-redux-react-3.0/static/css/main.e7d4a8d8.css.map",
+    "main.079899be.js.map": "/github-finder-typescript-redux-react-3.0/static/js/main.079899be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7d4a8d8.css",
+    "static/js/main.079899be.js"
+  ]
+}
