@@ -1,12 +1,10 @@
-import React, {ChangeEvent, MouseEventHandler, useState} from 'react';
+import React, {ChangeEvent,useState} from 'react';
 import "../../styles/main-styles/Main.scss"
-import UserCard from "../UserCard/UserCard";
 import {UserInfo} from "../../types/UserTypes";
 import {useAppDispatch, useAppSelector} from "../../hooks/useAppActions";
 import {getUserInfo} from "../../store/action-creators/UserActionCreator";
 import User from "../User/User";
 import {getReposInfo} from "../../store/action-creators/ReposActionCreator";
-import repos from "../Repos/Repos";
 
 interface OwnProps {
     user: UserInfo,
@@ -33,7 +31,6 @@ function Main(props: Props) {
         e.preventDefault()
         setNickname(e.target.value)
     }
-    console.log(repos)
     return (
         <main className="Main">
             <form onSubmit={sendUserName} className="Main__form">

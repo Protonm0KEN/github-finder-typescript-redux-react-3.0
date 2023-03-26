@@ -1,5 +1,5 @@
-import React, {FunctionComponent, useEffect} from 'react';
-import {UserInfo, UserState} from "../../types/UserTypes";
+import React, {FunctionComponent} from 'react';
+import {UserInfo} from "../../types/UserTypes";
 import UserCard from "../UserCard/UserCard";
 import Repos from "../Repos/Repos";
 import {ReposState} from "../../types/ReposTypes";

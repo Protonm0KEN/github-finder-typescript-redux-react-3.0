@@ -4,5 +4,5 @@ import {reposReducer} from "./reducers/reposReducer";
 
 export const rootReducer = combineReducers({
     user: userReducer,
-    repos: reposReducer
+    repos: reposReducer,
 })
